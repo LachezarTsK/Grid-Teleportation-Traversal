@@ -1,6 +1,5 @@
 
-import java.util.Queue
-import java.util.LinkedList
+import java.util.*
 import kotlin.collections.ArrayList
 
 class Solution {
