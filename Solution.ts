@@ -107,7 +107,7 @@ function findMinMovesFromStartToGoal(matrix: string[], start: Point, goal: Point
 }
 
 function handleTeleport(distanceFromStart: number, charOnCurrentPoint: string,
-    queue: Queue<Step>, visited: boolean[][]): void {
+                         queue: Queue<Step>, visited: boolean[][]): void {
 
     const index = charOnCurrentPoint.codePointAt(0) - 'A'.codePointAt(0);
     for (let point of util.teleportPoints[index]) {
